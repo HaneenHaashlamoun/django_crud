@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %} {{snack}} {% endblock %}
+
+{% block content %}
+<h1>{{ snack }}</h1>
+<h1>added by : {{ snack.purchaser }}</h1>
+<p> {{ snack.description }}</p>
+{% endblock %}
